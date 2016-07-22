@@ -11,13 +11,13 @@ gems:
 #baseurl: "/projectname"
 url: ""
 enforce_ssl: ""
-baseurl: "/jekyllBasic"
+baseurl: "/nikotama-2016-aug-frontend"
 
 # Title of website
-title: Project Name
+title: nikotama 2016 aug frontend
 
 #Default keywords (used if no keywords are specified on a page basis)
-keywords: test1, test2, etc
+keywords: javascript nikotama
 
 # Short description of your site
 desc: Sample Description
@@ -38,16 +38,16 @@ nav-links:
 
 # If the values are empty, they are ignored 
 profile:
-  name: Babji Chetty
-  email: Your-Email
-  facebook: your-fb-id
-  github: your-github-id 
-  twitter: your-twitter-id
-  linkedin: your-linkedin-id
-  stackoverflow: your-stackoverflow-id
+  name: Fumikazu Fujiwara
+  email: github@ze.gs
+  facebook: freddiefujiwara
+  github: freddiefujiwra
+  twitter: freddiefujiwra
+  linkedin:freddiefujiwra 
+  stackoverflow: freddiefujiwra
 
 # To display link in the footer section
-pretty-url: "bchetty.com"
+pretty-url: "freddiefujiwra.com"
 
 # --- Misc --- #
 
@@ -58,7 +58,7 @@ disqus: "Your-Disqus-Id"
 google_analytics: "Your-GA-Id"
 
 # Set these options as you need (For more information, check Jekyll's site)
-timezone: "Europe/Berlin"
+timezone: "Asia/Tokyo"
 markdown: kramdown
 highlighter: rouge
 permalink: /blog/:title
