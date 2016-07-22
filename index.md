@@ -3,4 +3,4 @@ layout: template1
 ---
 ## hello 
 
-{% include click_me.html %}
+{% include _includes/click_me.html %}
