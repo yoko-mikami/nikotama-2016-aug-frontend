@@ -2,14 +2,23 @@
 layout: template1 
 ---
 
-<!-- Main component for a primary marketing message or call to action -->
-<div class="jumbotron">
-    <h1>jekyllBasic Demo</h1>
-    <br/><br/>
-    <p>This is a simple responsive Site/Theme built using Jekyll.</p>
-    <p>You can use this as a template for building your new or an existing site.</p>
-    <br/><br/><br/>
-    <p>
-        <a class="btn btn-lg btn-primary" href="https://github.com/bchetty/jekyllBasic" role="button">View Source on Github Repo &raquo;</a>
-    </p>
-</div>
+<input type="button" id="button" value="Click ME!">
+<ul id="list"></ul>
+<script src="https://rawgit.com/freddiefujiwara/nikotama/master/dist/nikotama.bundle.js"></script>
+<script type="application/javascript">
+(function(d,w){
+ var button = d.getElementById('button');
+ $nikotama.on(button,'click',function(event){
+     $nikotama.get('https://rawgit.com/freddiefujiwara/nikotama-2015-Aug/master/api/post.js',function(stat){
+         if('success' === stat.status){
+         $nikotama.get('https://rawgit.com/freddiefujiwara/nikotama-2015-Aug/master/api/get.js',function(data){
+             var li =d.createElement('li');
+             li.innerHTML = data[0].name;
+             var ul = d.getElementById('list');
+             ul.appendChild(li);
+             },'get');
+         }
+         },'post');
+     });
+ })(document,window);
+</script>
