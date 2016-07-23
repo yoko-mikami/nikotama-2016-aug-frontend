@@ -115,6 +115,7 @@ $nikotama.get('https://api.github.com/users/freddiefujiwara',function(data){
 $ git commit -m 'first commit' -a
 ```
 2. push!!
+
 ```bash
 git push origin master                                                         
 Username for 'https://github.com':[あなたのアカウント]
