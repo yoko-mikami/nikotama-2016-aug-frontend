@@ -32,4 +32,5 @@ layout: template1
 
 ###https://github.com/dashboard というページに遷移したら　アカウント作成完了!
 ![]({{site.baseurl}}/screenshots/github04.png)
+
 {% include click_me.html %}
