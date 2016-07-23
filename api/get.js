@@ -1,3 +1,5 @@
 get(
-    {name:(+ new Date())}
+    {data:
+        {name:(+ new Date())}
+    }
 );
