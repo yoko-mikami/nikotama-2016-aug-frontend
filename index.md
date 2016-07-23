@@ -14,10 +14,18 @@ layout: template1
 
 ## githubアカウント作成
 1. [github](https://github.com/) というサイトに行きます。
-	![]({{site.baseurl}}/Screenshot%202016-07-23%20at%2009.07.27.png)
+	- ![]({{site.baseurl}}/screenshots/github01.png)
     - ** Pick a username **に　ユーザ名
     - ** Your email address ** にあなたのメールアドレス
     - ** Create a password ** にパスワードを入れます
-    - 最後にSign up for Githubをクリックします
-    
+    - 最後に** Sign up for Github ** をクリックします
+2. https://github.com/join/plan というページに遷移しています
+    - ![]({{site.baseurl}}/screenshots/github02.png)
+	- ** Unlimited public repositories for free. ** が選択されていることを確認します
+    - ** Continue ** をクリックします
+3. https://github.com/join/customize というページに遷移しています
+    - ![]({{site.baseurl}}/screenshots/github03.png)
+    - ** skip this step ** をクリックします
+4. https://github.com/dashboard というページに遷移したら　アカウント作成完了!
+	- ![]({{site.baseurl}}/screenshots/github04.png)
 {% include click_me.html %}
