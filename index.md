@@ -70,6 +70,7 @@ $ ls -lha
 ```
 
 そうすると下記のようにファイルが見えるはずです
+
 ```bash
 total 1.9M                                                                                                                    
 drwxrwxr-x  4 fumikazu fumikazu 4.0K Jul 23 11:11 .
