@@ -14,19 +14,26 @@ layout: template1
 
 ## githubアカウント作成
 1. [github](https://github.com/) というサイトに行きます。
-	- Pick a usernameにユーザ名
-	- Your email addressにあなたのメールアドレス
-	- Create a passwordにパスワードを入れます
-	- 最後にSign up for Githubをクリックします
+	- **Pick a username**にユーザ名
+	- **Your email address**にあなたのメールアドレス
+	- **Create a password**にパスワードを入れます
+	- 最後に**Sign up for Github**をクリックします
 	- ![]({{site.baseurl}}/screenshots/github01.png)
 2. https://github.com/join/plan というページに遷移しています。
-	- Unlimited public repositories for free.が選択されていることを確認します
-	- Continueをクリックします
+	- **Unlimited public repositories for free**.が選択されていることを確認します
+	- **Continue**をクリックします
 	- ![]({{site.baseurl}}/screenshots/github02.png)
 3. https://github.com/join/customize というページに遷移しています。
-	- skip this stepをクリックします
+	- **skip this step**をクリックします
 	- ![]({{site.baseurl}}/screenshots/github03.png)
 4. https://github.com/dashboard というページに遷移したら　アカウント作成完了!
 	- ![]({{site.baseurl}}/screenshots/github04.png)
+5. メールを確認
+	- **[GitHub] Please verify your email address**. というメールが着ているのを確認
+    - **Verify email address** をクリック
+    
+## demo アプリをforkしてみよう
+1. https://github.com/freddiefujiwara/nikotama-2016-aug-frontend/ というページに行きます
+	- 右上にあるForkというアイコンをクリック
 
 {% include click_me.html %}
