@@ -111,6 +111,7 @@ $nikotama.get('https://api.github.com/users/freddiefujiwara',function(data){
 
 ## commit して　pushしてみよう
 1. ファイルを保存したら下記のコマンドをうってみよう
+
 ```bash
 $ git commit -m 'first commit' -a
 ```
