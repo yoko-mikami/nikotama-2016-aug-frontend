@@ -86,3 +86,18 @@ drwxrwxr-x  8 fumikazu fumikazu 4.0K Jul 23 11:11 .git
 そうすると。。　下記のような"CLick ME!"というボタンがあるのでおしてみてください
 
 {% include click_me.html %}
+
+## アプリを編集してみよう
+1. index.html をテキストエディタで開いてみよう
+
+```JavaScript
+$nikotama.get('https://rawgit.com/freddiefujiwara/nikotama-2015-Aug/master/api/get.js',function(data){
+```
+
+という行を
+```JavaScript
+$nikotama.get('https://api.github.com/users/freddiefujiwara',function(data){
+```
+に変更して保存しよう
+
+2. index.html をもう一回ブラウザで開いてみます.
