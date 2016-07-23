@@ -46,7 +46,8 @@ layout: template1
 3. 先ほどセットアップした黒い画面コンソールにて下記を打ち込みます
 
 ```bash
-$ git clone https://github.com/nikotama201601/nikotama-2016-aug-frontend.git                             ```
+$ git clone https://github.com/nikotama201601/nikotama-2016-aug-frontend.git                             
+```
 
 そうすると。。。
 
