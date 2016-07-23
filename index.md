@@ -28,12 +28,36 @@ layout: template1
 	- ![]({{site.baseurl}}/screenshots/github03.png)
 4. https://github.com/dashboard というページに遷移したら　アカウント作成完了!
 	- ![]({{site.baseurl}}/screenshots/github04.png)
-5. メールを確認
+5. 最後にメールを確認
 	- **[GitHub] Please verify your email address**. というメールが着ているのを確認
     - **Verify email address** をクリック
     
 ## demo アプリをforkしてみよう
 1. https://github.com/freddiefujiwara/nikotama-2016-aug-frontend/ というページに行きます
-	- 右上にあるForkというアイコンをクリック
+	- 右上にある**Fork**というアイコンをクリック
+    - ![]({{site.baseurl}}/screenshots/fork01.png)
+2. https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend というページができたらfork完了
+
+## demo アプリをクローンしてみよう
+1. https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend/ に行きます。
+	- 緑のボタンClone or downloadをクリックします
+    - ![]({{site.baseurl}}/screenshots/clone01.png)
+2. 中に表示されているテキストボックスをコピーしておきます.
+3. 先ほどセットアップした黒い画面コンソールにて下記を打ち込みます
+```bash
+$ git clone https://github.com/nikotama201601/nikotama-2016-aug-frontend.git                             ```
+そうすると。。。
+```bash
+Cloning into 'nikotama-2016-aug-frontend'...
+remote: Counting objects: 203, done.                                                                                          
+remote: Compressing objects: 100% (97/97), done.                                                                              
+remote: Total 203 (delta 51), reused 0 (delta 0), pack-reused 103                                                             
+Receiving objects: 100% (203/203), 1.13 MiB | 650.00 KiB/s, done.
+Resolving deltas: 100% (88/88), done.
+Checking connectivity... done.
+```
+上記のような表示がでてきて... done.となったらclone完了
+
+	
 
 {% include click_me.html %}
