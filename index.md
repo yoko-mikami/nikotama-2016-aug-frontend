@@ -45,16 +45,16 @@ layout: template1
 3. 先ほどセットアップした黒い画面コンソールにて下記を打ち込みます
 
 ```bash
-$ git clone https://github.com/nikotama201601/nikotama-2016-aug-frontend.git                             
+$ git clone https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend.git                             
 ```
 
 そうすると。。。
 
 ```bash
 Cloning into 'nikotama-2016-aug-frontend'...
-remote: Counting objects: 203, done.                                                                                          
-remote: Compressing objects: 100% (97/97), done.                                                                              
-remote: Total 203 (delta 51), reused 0 (delta 0), pack-reused 103                                                             
+remote: Counting objects: 203, done.
+remote: Compressing objects: 100% (97/97), done.
+remote: Total 203 (delta 51), reused 0 (delta 0), pack-reused 103
 Receiving objects: 100% (203/203), 1.13 MiB | 650.00 KiB/s, done.
 Resolving deltas: 100% (88/88), done.
 Checking connectivity... done.
@@ -77,8 +77,8 @@ drwxrwxr-x  4 fumikazu fumikazu 4.0K Jul 23 11:11 .
 drwxr-xr-x 24 fumikazu fumikazu 1.9M Jul 23 11:11 ..
 drwxrwxr-x  2 fumikazu fumikazu 4.0K Jul 23 11:11 api
 drwxrwxr-x  8 fumikazu fumikazu 4.0K Jul 23 11:11 .git
--rw-rw-r--  1 fumikazu fumikazu 1.1K Jul 23 11:11 index.html                                                                  
--rw-rw-r--  1 fumikazu fumikazu 1.1K Jul 23 11:11 LICENSE                                                                     
+-rw-rw-r--  1 fumikazu fumikazu 1.1K Jul 23 11:11 index.html
+-rw-rw-r--  1 fumikazu fumikazu 1.1K Jul 23 11:11 LICENSE
 -rw-rw-r--  1 fumikazu fumikazu   29 Jul 23 11:11 README.md
 ```
 
