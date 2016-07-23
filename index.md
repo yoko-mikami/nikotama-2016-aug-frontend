@@ -47,7 +47,9 @@ layout: template1
 
 ```bash
 $ git clone https://github.com/nikotama201601/nikotama-2016-aug-frontend.git                             ```
+
 そうすると。。。
+
 ```bash
 Cloning into 'nikotama-2016-aug-frontend'...
 remote: Counting objects: 203, done.                                                                                          
