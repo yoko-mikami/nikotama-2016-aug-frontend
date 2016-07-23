@@ -13,5 +13,11 @@ layout: template1
 6. これで無事にアプリケーションに「Git Bash」が追加されていると思うので、起動してください。するとコマンドプロンプト風のCLI(command line interface)が立ち上がると思うので、そこから初期設定を行うのですが、これは次回書いていきたいと思います。
 
 ## githubアカウント作成
-
+1. [github](https://github.com/) というサイトに行きます。
+	![]({{site.baseurl}}/Screenshot%202016-07-23%20at%2009.07.27.png)
+    - ** Pick a username **に　ユーザ名
+    - ** Your email address ** にあなたのメールアドレス
+    - ** Create a password ** にパスワードを入れます
+    - 最後にSign up for Githubをクリックします
+    
 {% include click_me.html %}
