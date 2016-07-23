@@ -134,3 +134,17 @@ Total 3 (delta 2), reused 0 (delta 0)
 To https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend.git
 ac2f0d6..a3cdcbc  master -> master
 ```
+
+3. https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend/blob/master/index.html にいって変更が反映されたことを確認してみよう
+
+## 事前課題
+上記まですすめたら
+https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend
+をメールに返信してください
+
+
+## 参考リンク集
+- [gitflow](http://danielkummer.github.io/git-flow-cheatsheet/index.ja_JP.html)
+- [超絶初心者のためのフロント入門（HTML、CSS、JavaScript）](http://qiita.com/shuntaro_tamura/items/c9b2fec0f3a9f7d1e987)
+- [JavaScript入門](http://qiita.com/akiinu/items/5d1178fa1102b939cd71)
+- 
