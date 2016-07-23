@@ -47,7 +47,6 @@ layout: template1
 
 ```bash
 $ git clone https://github.com/nikotama201601/nikotama-2016-aug-frontend.git                             ```
-
 そうすると。。。
 
 ```bash
