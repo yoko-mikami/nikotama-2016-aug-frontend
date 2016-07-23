@@ -44,6 +44,7 @@ layout: template1
     - ![]({{site.baseurl}}/screenshots/clone01.png)
 2. 中に表示されているテキストボックスをコピーしておきます.
 3. 先ほどセットアップした黒い画面コンソールにて下記を打ち込みます
+
 ```bash
 $ git clone https://github.com/nikotama201601/nikotama-2016-aug-frontend.git                             ```
 そうすると。。。
