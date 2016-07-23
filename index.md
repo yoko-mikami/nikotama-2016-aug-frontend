@@ -108,3 +108,27 @@ $nikotama.get('https://api.github.com/users/freddiefujiwara',function(data){
 そうすると。。　下記のような"CLick ME!"というボタンがあるのでおしてみて　前と動きが変わったことを確認してください
 
 {% include click_me_github.html %}
+
+## commit して　pushしてみよう
+1. ファイルを保存したら下記のコマンドをうってみよう
+```bash
+$ git commit -m 'first commit' -a
+```
+2. push!!
+```bash
+git push origin master                                                         
+Username for 'https://github.com':[あなたのアカウント]
+Password for 'https://[あなたのアカウント]@github.com':[あなたのパスワード]
+```
+
+そうすると下記のような表示になったら完成
+
+```bash
+Counting objects: 6, done.                    
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 351 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend.git
+ac2f0d6..a3cdcbc  master -> master
+```
