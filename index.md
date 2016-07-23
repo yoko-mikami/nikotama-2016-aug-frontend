@@ -61,6 +61,28 @@ Checking connectivity... done.
 ```
 上記のような表示がでてきて... done.となったらclone完了
 
-	
+4. ファイルを確認してみよう
+下記のコマンドを打って　clone したフォルダに移動しています
+
+```bash
+$ cd nikotama-2016-aug-frontend/ 
+$ ls -lha
+```
+
+そうすると下記のようにファイルが見えるはずです
+```bash
+total 1.9M                                                                                                                    
+drwxrwxr-x  4 fumikazu fumikazu 4.0K Jul 23 11:11 .
+drwxr-xr-x 24 fumikazu fumikazu 1.9M Jul 23 11:11 ..
+drwxrwxr-x  2 fumikazu fumikazu 4.0K Jul 23 11:11 api
+drwxrwxr-x  8 fumikazu fumikazu 4.0K Jul 23 11:11 .git
+-rw-rw-r--  1 fumikazu fumikazu 1.1K Jul 23 11:11 index.html                                                                  
+-rw-rw-r--  1 fumikazu fumikazu 1.1K Jul 23 11:11 LICENSE                                                                     
+-rw-rw-r--  1 fumikazu fumikazu   29 Jul 23 11:11 README.md
+```
+
+## アプリを動かしてみよう 
+1. index.html というファイルをブラウザで開いてみます
+そうすると。。　下記のような"CLick ME!"というボタンがあるのでおしてみてください
 
 {% include click_me.html %}
