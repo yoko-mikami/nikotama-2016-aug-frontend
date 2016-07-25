@@ -2,15 +2,15 @@
 layout: template1 
 ---
 # Table of Contents
-1. [Gitのインストール-Windows版](#Gitのインストール-Windows版)
-2. [githubアカウント作成](#githubアカウント作成)
-3. [demoアプリをforkしてみよう](#demoアプリをforkしてみよう)
-4. [demoアプリをcloneしてみよう](#demoアプリをcloneしてみよう)
-5. [アプリを動かしてみよう](#アプリを動かしてみよう)
-6. [アプリを編集してみよう](#アプリを編集してみよう)
-7. [commitしてpushしてみよう](#commitしてpushしてみよう)
-6. [事前課題](#事前課題)
-7. [次のステップ下記を読んで勉強してみよう](#次のステップ下記を読んで勉強してみよう)
+1. [Gitのインストール-Windows版](#git-windows)
+2. [githubアカウント作成](#github)
+3. [demoアプリをforkしてみよう](#demofork)
+4. [demoアプリをcloneしてみよう](#democlone)
+5. [アプリを動かしてみよう](#section)
+6. [アプリを編集してみよう](#section-1)
+7. [commitしてpushしてみよう](#commitpush)
+6. [事前課題](#section-2)
+7. [次のステップ下記を読んで勉強してみよう](#section-3)
 
 ## Gitのインストール-Windows版
 1. [git for windows](https://git-for-windows.github.io/)というサイトに行きます。
