@@ -93,7 +93,7 @@ drwxrwxr-x  8 fumikazu fumikazu 4.0K Jul 23 11:11 .git
 
 ## アプリを動かしてみよう 
 1. index.html というファイルをブラウザで開いてみます
-そうすると。。　下記のような"CLick ME!"というボタンがあるのでおしてみてください
+そうすると。。　下記のような"Click ME!"というボタンがあるのでおしてみてください
 
 {% include click_me.html %}
 
@@ -113,7 +113,7 @@ $nikotama.get('https://api.github.com/users/freddiefujiwara',function(data){
 に変更して保存しよう
 
 2. index.html をもう一回ブラウザで開いてみます.
-そうすると。。　下記のような"CLick ME!"というボタンがあるのでおしてみて　前と動きが変わったことを確認してください
+そうすると。。　下記のような"Click ME!"というボタンがあるのでおしてみて　前と動きが変わったことを確認してください
 
 {% include click_me_github.html %}
 
@@ -156,3 +156,4 @@ https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend
 - [超絶初心者のためのフロント入門（HTML、CSS、JavaScript）](http://qiita.com/shuntaro_tamura/items/c9b2fec0f3a9f7d1e987)
 - [JavaScript入門](http://qiita.com/akiinu/items/5d1178fa1102b939cd71)
 - [nikotama.js(上記アプリで使っているライブラリ)](https://github.com/freddiefujiwara/nikotama/blob/master/src/nikotama.js)
+- [git入門(全22回)](http://dotinstall.com/lessons/basic_git)
