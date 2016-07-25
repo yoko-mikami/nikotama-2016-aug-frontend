@@ -32,9 +32,8 @@ layout: template1
 	- ![]({{site.baseurl}}/screenshots/git_windows09.png)
     - ![]({{site.baseurl}}/screenshots/git_windows10.png)
     
-## Gitのインストール-Mac版
-	
-    [こちら(HomebrewでGitをインストールする)](http://qiita.com/micheleno13/items/133aee005ae37c28960e)をみてインストールしてみてください。　投げやりですみません。。
+## Gitのインストール-Mac版	
+[こちら(HomebrewでGitをインストールする)](http://qiita.com/micheleno13/items/133aee005ae37c28960e)をみてインストールしてみてください。　投げやりですみません。。
 
 ## githubアカウント作成
 1. [github](https://github.com/) というサイトに行きます。
