@@ -41,7 +41,7 @@ layout: template1
     - **Verify email address** をクリック
     
 ## demo アプリをforkしてみよう
-1. https://github.com/freddiefujiwara/nikotama-2016-aug-frontend/ というページに行きます
+1. [https://github.com/freddiefujiwara/nikotama-2016-aug-frontend/](https://github.com/freddiefujiwara/nikotama-2016-aug-frontend/) というページに行きます
 	- 右上にある**Fork**というアイコンをクリック
     - ![]({{site.baseurl}}/screenshots/fork01.png)
 2. https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend というページができたらfork完了
