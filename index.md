@@ -1,7 +1,18 @@
 --- 
 layout: template1 
 ---
-## Gitのインストール(Windows版)
+# Table of Contents
+1. [Gitのインストール-Windows版](#Gitのインストール-Windows版)
+2. [githubアカウント作成](#githubアカウント作成)
+3. [demoアプリをforkしてみよう](#demoアプリをforkしてみよう)
+4. [demoアプリをcloneしてみよう](#demoアプリをcloneしてみよう)
+5. [アプリを動かしてみよう](#アプリを動かしてみよう)
+6. [アプリを編集してみよう](#アプリを編集してみよう)
+7. [commitしてpushしてみよう](#commitしてpushしてみよう)
+6. [事前課題](#事前課題)
+7. [次のステップ下記を読んで勉強してみよう](#次のステップ下記を読んで勉強してみよう)
+
+## Gitのインストール-Windows版
 1. [git for windows](https://git-for-windows.github.io/)というサイトに行きます。
 	- ![]({{site.baseurl}}/screenshots/git_windows01.png)
 2. ダウンロードが完了すると、ダウンロードした実行形式ファイル(.exe)を実行してインストールしていきます。
@@ -40,13 +51,13 @@ layout: template1
 	- **[GitHub] Please verify your email address**. というメールが着ているのを確認
     - **Verify email address** をクリック
     
-## demo アプリをforkしてみよう
+## demoアプリをforkしてみよう
 1. [https://github.com/freddiefujiwara/nikotama-2016-aug-frontend/](https://github.com/freddiefujiwara/nikotama-2016-aug-frontend/) というページに行きます
 	- 右上にある**Fork**というアイコンをクリック
     - ![]({{site.baseurl}}/screenshots/fork01.png)
 2. https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend というページができたらfork完了
 
-## demo アプリをクローンしてみよう
+## demoアプリをcloneしてみよう
 1. https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend/ に行きます。
 	- 緑のボタンClone or downloadをクリックします
     - ![]({{site.baseurl}}/screenshots/clone01.png)
@@ -117,7 +128,7 @@ $nikotama.get('https://api.github.com/users/freddiefujiwara',function(data){
 
 {% include click_me_github.html %}
 
-## commit して　pushしてみよう
+## commitしてpushしてみよう
 1. ファイルを保存したら下記のコマンドをうってみよう
 
 ```bash
