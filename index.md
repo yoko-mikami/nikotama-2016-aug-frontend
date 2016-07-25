@@ -151,9 +151,13 @@ https://github.com/[あなたのアカウント]/nikotama-2016-aug-frontend
 をメールに返信してください
 
 
-## 参考リンク集
-- [gitflow](http://danielkummer.github.io/git-flow-cheatsheet/index.ja_JP.html)
+## 次のステップ下記を読んで勉強してみよう
+
+### HTML/JavaScript
 - [超絶初心者のためのフロント入門（HTML、CSS、JavaScript）](http://qiita.com/shuntaro_tamura/items/c9b2fec0f3a9f7d1e987)
 - [JavaScript入門](http://qiita.com/akiinu/items/5d1178fa1102b939cd71)
 - [nikotama.js(上記アプリで使っているライブラリ)](https://github.com/freddiefujiwara/nikotama/blob/master/src/nikotama.js)
+
+### git
+- [gitflow](http://danielkummer.github.io/git-flow-cheatsheet/index.ja_JP.html)
 - [git入門(全22回)](http://dotinstall.com/lessons/basic_git)
